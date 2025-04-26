@@ -1,0 +1,7 @@
+Today i learnt about Nano command 
+
+I learnt this while watching the spark course , 
+basically you can go to any directory 
+
+nano newFile.txt ----> will create a new file for you and after you are doing editing it 
+ctrl + X to save the file and close it 
