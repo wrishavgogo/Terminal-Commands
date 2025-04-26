@@ -1,0 +1,32 @@
+📌 What did your export command do?
+bash
+Copy
+Edit
+
+
+export SPARK_HOME=/Users/w0b01mk/Desktop/DataEngineering/spark-3.5.5-bin-hadoop3
+
+
+✅ This created a new environment variable called SPARK_HOME, and set its value to your Spark folder path.
+
+✅ In simple words:
+
+Environment variables are key-value pairs that your shell and programs can use or read.
+
+✅ export made sure:
+SPARK_HOME is available to your current terminal session
+Programs and scripts you run can access SPARK_HOME
+
+📌 What did your echo command do?
+bash
+Copy
+Edit
+
+echo $SPARK_HOME
+✅ echo simply prints whatever you ask it to print.
+✅ $SPARK_HOME means:
+Fetch the value of the environment variable SPARK_HOME.
+✅ So what happened?
+Your terminal printed /Users/w0b01mk/Desktop/DataEngineering/spark-3.5.5-bin-hadoop3
+
+That shows: your SPARK_HOME was successfully created in memory for this session.
